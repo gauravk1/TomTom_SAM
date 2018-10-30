@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.gk.sam"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    //library required to display map
+    api("com.tomtom.online:sdk-maps:2.+@aar"){
+        transitive = true;
+    }
+    //library required for search
+    api("com.tomtom.online:sdk-search:2.+@aar"){
+        transitive = true;
+    }
+    //library required for routing
+    api("com.tomtom.online:sdk-routing:2.+@aar"){
+        transitive = true;
+    }
+    //library required for traffic
+    api("com.tomtom.online:sdk-traffic:2.+@aar"){
+        transitive = true;
+    }
+    api 'com.android.support:multidex:1.0.1'
+
+
+}

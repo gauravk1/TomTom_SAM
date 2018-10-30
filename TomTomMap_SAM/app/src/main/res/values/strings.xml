@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SAM</string>
+    <string name="app_name_full">Search Around Me</string>
+    <string name="app_id">CKXBdvrUeH7JwmoOf9GI</string>
+    <string name="app_code">j8_MBYZhNcNnkDw3t1jPFw</string>
+    <string name="license_key">Kmzm1vm9ifAQIsk9ei1Y3LMvNOYhbOUnKQcKAm5Pjl0I03hzg3rJ4VuMDa1hJmuVO+LqWfud9zxQjpm8VWCAXPkJxpDhVIwjinJeyEftHq4NNaGt0tkWwsGPtpzKlDInliCocgWfN1/Z7gmEtgJ88bO1w6hziJdIQ+7gBOs+1zcVgHrvvkO7ZbgpBXiG3DpjgndjrhpXutkuyx8DStRUD+yDDdPfUAosVm8IdhI3r4GAmgXIxevSp2AhCRcqQU5P1LKdhxjWL11/81ZaU7uKdQYmqcI98atr18Ln3dtpw3asv/sKM8i7+hay+M1k1TDShf6ZJjxuhIERKlG0BYSMMNPNGvtVjALJ0xAzWM48dNlG8KolD2vSfaYyXUG9KnRrBE0vY2TMAKpmfGLqfuRz3IH4+GcXXQA08ycApW7ZFMdcKRLuZ+is0dmcorrgR3yJCEihSuO8QOS2VNgj5Q0GaUVg/rtgzyRhAYq48BbXM5PBviTwGJD0/RqlDs6Mibutd9ubWzpM6Vb4S7aAv947l/++tZJe70BvM+VCUYTwUbegQIAWNVRTvf1I+6kcu22y3FBNl8MC9UAU6AkfYvSiSJ0MpYhktCN0T2KNb+Sn+VYdHEKWNRCd22j5TBUnJsyAlbfNzz1TqXEgL2MJulaa+irr1mMtEWWi2PAROLTy+Mk=</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_address">Search Address</string>
+    <string name="Around">Search Around</string>
+    <string name="Explore">Explore</string>
+    <string name="search">My Search</string>
+    <string name="explore_nearby">Explore Nearby</string>
+    <string name="consumer_api_key">UyUUp1B2vWuGLMOGM1QfKAf5ppkgL5Kf</string>
+</resources>
